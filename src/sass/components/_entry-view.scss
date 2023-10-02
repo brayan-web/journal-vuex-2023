@@ -1,0 +1,61 @@
+.entry-view{
+    &-title{
+        &__day{
+            color: $bg-green;
+            font-size: 1.9rem;
+            font-weight: 700;
+        }
+        &__month{
+            font-size: 1.9rem;
+            font-weight: 600;
+
+            
+        }
+        &__year{
+            font-size: 1.7rem;
+            font-weight: 400;
+
+            
+        }
+    }
+    &-buttons{
+
+        .sbtn-delete{
+            background-color: $bg-danger;
+            width: 4rem;
+            height: 4rem;
+            border-radius: .7rem;
+
+            svg{
+                color: $txt-white;
+            }
+        }
+        .sbtn-upload{
+            background-color: $bg-info;
+            width: 4rem;
+            height: 4rem;
+            border-radius: .7rem;
+            svg{
+                color: $txt-white;
+            }
+        }
+    }
+   
+}
+.entry-view-textarea{
+    font-size: 1.8rem;
+    border: none;
+    height: auto;
+    background-color: #F1F5F2;
+
+    &:focus{
+        outline: none;
+    }
+}
+.entry-view-img{
+    width: 200px;
+    position: absolute;
+    right: 3rem;
+    bottom: 17rem;
+    box-shadow: 0rem .5rem 1rem rgba($color: #000000, $alpha: .2);
+}

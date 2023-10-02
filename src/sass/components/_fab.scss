@@ -1,0 +1,13 @@
+.sbtn-floating{
+    position: absolute;
+    bottom: 3rem;
+    right: 5rem;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 100%;
+    background-color: $bg-purple-dark;
+
+    svg{
+        color: $txt-white;
+    }
+}

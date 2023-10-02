@@ -1,0 +1,20 @@
+.nav-bar{
+    height: 8rem;
+    background: $bg-purple-dark;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 3rem 0rem 3rem;
+
+    &__txt{
+        color: $txt-white;
+        text-decoration: none;
+        display: block;
+        font-size: 2rem;
+    }
+   &__btn{
+    button{
+        font-size: 1.8rem;
+    }
+   }
+}

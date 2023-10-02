@@ -1,0 +1,33 @@
+.entry-container{
+    border-bottom: 1px solid $bg-purple-dark;
+    transition: .2s all ease-in;
+
+    &:hover{
+        background-color: lighten($color: $bg-beige, $amount: 10);
+    }
+}
+.entry{
+    cursor: pointer;
+ 
+    &-title{
+
+
+        &__day{
+            color: $bg-green;
+            font-weight: 700;
+            font-size: 1.8rem;
+        }
+        &__month{
+            font-size: 1.8rem;
+            
+        }
+        &__year{
+            font-weight: 500;
+            font-size: 1.5rem;
+            
+        }
+    }
+    &-description{
+        font-size: 1.3rem;
+    }
+}

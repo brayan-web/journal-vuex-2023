@@ -1,0 +1,26 @@
+//BG-COLORS
+$bg-purple-dark: #2D3047;
+$bg-green: #419D78;
+$bg-mustard: #E0A458;
+$bg-beige: #FFDBB5;
+$bg-purple: #C04ABC;
+$bg-danger: #DC3545;
+$bg-warning: #FFC107;
+$bg-success: #198754;
+$bg-info: #0DCAF0;
+$txt-white: #FFFFFF;
+
+
+
+$theme-colors: (
+  "primary":    $bg-purple-dark,
+  "secondary":  $bg-green,
+  "success":    $bg-success,
+  "info":       $bg-mustard,
+  "warning":    $bg-warning,
+  "danger":     $bg-danger,
+  "light":      $bg-green,
+  "dark":       $bg-green
+);
+
+

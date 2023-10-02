@@ -1,0 +1,28 @@
+.entry-list__container{
+    border-right: .2rem solid $bg-purple-dark;
+    height: calc(100vh - 8rem);
+}
+.entry-scrollarea{
+    height: calc(100vh - 13rem);
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: .7rem;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: none; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
